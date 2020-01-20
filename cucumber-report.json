@@ -1,6 +1,91 @@
 [
   {
     "keyword": "Feature",
+    "name": "Manager Login",
+    "line": 1,
+    "id": "manager-login",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "manager-login;verify-login-status",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify login status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the browser is open",
+            "match": {
+              "location": "features\\support\\steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "open banking login page",
+            "match": {
+              "location": "features\\support\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Enter username and password",
+            "match": {
+              "location": "features\\support\\loginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "features\\support\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be redirected to homepage",
+            "match": {
+              "location": "features\\support\\loginSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4840000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
     "name": "search in google",
     "line": 1,
     "id": "search-in-google",
@@ -21,11 +106,11 @@
             "line": 4,
             "name": "the browser is open",
             "match": {
-              "location": "features\\support\\steps.js:9"
+              "location": "features\\support\\steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 948000000
+              "duration": 1294000000
             }
           },
           {
@@ -34,11 +119,11 @@
             "line": 5,
             "name": "open the google page",
             "match": {
-              "location": "features\\support\\steps.js:16"
+              "location": "features\\support\\steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2269000000
+              "duration": 2471000000
             }
           },
           {
@@ -47,11 +132,11 @@
             "line": 6,
             "name": "Search for flipkart",
             "match": {
-              "location": "features\\support\\steps.js:21"
+              "location": "features\\support\\steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 894000000
+              "duration": 2261000000
             }
           },
           {
@@ -60,11 +145,11 @@
             "line": 7,
             "name": "count the results",
             "match": {
-              "location": "features\\support\\steps.js:29"
+              "location": "features\\support\\steps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 12000000
             }
           }
         ]

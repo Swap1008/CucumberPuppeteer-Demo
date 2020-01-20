@@ -17,7 +17,9 @@ When("open the google page", async function() {
 When("Search for flipkart", async function() {
   await this.page.waitForSelector("[name='q']");
   await this.page.type('[name="q"]', "flipkart");
-  await this.page.click('[name="btnK"]');
+  await this.page.keyboard.press('Enter');
+//   await this.page.click('[name="btnK"]');
+  await this.page.waitForNavigation();
 });
 
 Then("count the results", async function() {
