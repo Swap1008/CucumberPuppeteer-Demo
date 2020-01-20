@@ -1,0 +1,13 @@
+Make the changes in package.json as per in the file (as shown below)
+"scripts": {
+    "test": "cucumber-js -f json:cucumber-report.json",
+    "report": "node report.js"
+  }
+
+
+#First Run
+
+npm test
+
+# To generate report
+npm run report
