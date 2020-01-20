@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "search in google",
+    "line": 1,
+    "id": "search-in-google",
+    "tags": [],
+    "uri": "features\\search.feature",
+    "elements": [
+      {
+        "id": "search-in-google;verify-result-for-google-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify result for google search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the browser is open",
+            "match": {
+              "location": "features\\support\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "open the google page",
+            "match": {
+              "location": "features\\support\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Search for flipkart",
+            "match": {
+              "location": "features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "count the results",
+            "match": {
+              "location": "features\\support\\steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
